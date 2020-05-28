@@ -14,7 +14,7 @@
 		<meta name="yandex-verification" content="cc15dcdc0623e346" />
 		<!-- Social Meta -->
 		<meta property="fb:app_id" content="1287814887965073" />
-		<meta property="og:url" content="http://trevor.geene.info" />
+		<meta property="og:url" content="http://trevor.geene.co" />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="Trevor Geene - Las Vegas Web Developer &amp; Consultant" />
 		<meta property="og:description" content="A Las Vegas based Web Developer &amp; Consultant with <?php echo date("Y")-2010; ?> years of professional experience building websites, applications, and managing projects." />
