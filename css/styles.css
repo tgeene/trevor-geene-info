@@ -114,6 +114,9 @@ time {
 	}
 }
 @media print {
+    dl {
+        columns: 2;
+    }
     #meta {
 		display: none;
 	}
