@@ -1,3 +1,6 @@
+<?php
+$base_description = "A Las Vegas based Web Developer &amp; Consultant with ".(date("Y")-2010)." years of professional experience building websites, applications, and managing projects.";
+?>
 <!doctype html>
 <html lang="en-US">
 	<head>
@@ -5,7 +8,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="Trevor Geene">
-		<meta name="description" content="A Las Vegas based Web Developer &amp; Consultant with <?php echo date("Y")-2010; ?> years of professional experience building websites, applications, and managing projects.">
+		<meta name="description" content="<?php echo $base_description; ?>">
 		<meta name="keywords" content="Trevor Geene,Resume,Web Developer,Web Consultant,Las Vegas,AllinWebPro.com,Sin City Gold Buyers,Cyber House Studios,Graphic Intrigue">
 		<meta name="robots" content="index, follow">
 		<meta name="revisit-after" content="1 month">
@@ -17,11 +20,11 @@
 		<meta property="og:url" content="http://trevor.geene.co" />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="Trevor Geene - Las Vegas Web Developer &amp; Consultant" />
-		<meta property="og:description" content="A Las Vegas based Web Developer &amp; Consultant with <?php echo date("Y")-2010; ?> years of professional experience building websites, applications, and managing projects." />
+		<meta property="og:description" content="<?php echo $base_description; ?>" />
 		<meta name="twitter:card" content="summary" />
 		<meta name="twitter:site" content="@trevorgeene" />
 		<meta name="twitter:title" content="Trevor Geene - Las Vegas Web Developer &amp; Consultant" />
-		<meta name="twitter:description" content="A Las Vegas based Web Developer &amp; Consultant with <?php echo date("Y")-2010; ?> years of professional experience building websites, applications, and managing projects." />
+		<meta name="twitter:description" content="<?php echo $base_description; ?>" />
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
@@ -66,7 +69,7 @@
 					<header>
 						<h2>Summary</h2>
 					</header>
-					<p>Web Developer with <?php $f = new NumberFormatter("en", NumberFormatter::SPELLOUT); echo $f->format(date("Y")-2010); ?> years of professional experience building websites, applications, and managing projects. Excels at creating positive working relationships with a wide variety of clients representing a plethora of industries.</p>
+					<p><?php echo $base_description; ?> Excels at creating positive working relationships with a wide variety of clients representing a plethora of industries.</p>
 				</section>
 				<!-- Employment History -->
 				<section id="employment">
