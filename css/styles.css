@@ -9,14 +9,11 @@ ul {
 	list-style-type: disc;
     margin-left: 2em;
 }
+ul ul {
+    margin-left: 4em;
+}
 dt, dd {
-	display: inline-block;
-}
-dt {
-	width: 8%;
-}
-dd {
-	width: 41%;
+	display: block;
 }
 dd:after {
 	content: " ";

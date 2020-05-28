@@ -84,14 +84,16 @@
 						<ul itemprop="description">
 							<li>Create a tour reseller site using AMP-HTML.</li>
 							<li>Build a content manage system to handle all of the front end systems including:
-								<li>Categories</li>
-								<li>Locations</li>
-								<li>Articles</li>
-								<li>Companies/Venies</li>
-								<li>Products</li>
-								<li>Orders</li>
-								<li>Users</li>
-							<li>
+                                <ul>
+                                    <li>Categories</li>
+                                    <li>Locations</li>
+                                    <li>Articles</li>
+                                    <li>Companies/Venies</li>
+                                    <li>Products</li>
+                                    <li>Orders</li>
+                                    <li>Users</li>
+                                </ul>
+							</li>
 						</ul>
 					</article>
 					<article itemscope itemtype="http://schema.org/Organization">
@@ -149,7 +151,7 @@
 									<li itemprop="itemListElement">AMP-HTML</li>
 									<li itemprop="itemListElement">JavaScript</li>
 									<li itemprop="itemListElement">CSS3</li>
-									<li itemprop="itemListElement">SCSS</li>
+									<li itemprop="itemListElement">SASS</li>
 								</ul>
 							</dd>
 						<dt itemprop="name">Backend</dt>
