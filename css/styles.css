@@ -40,6 +40,7 @@ section header {
 
 .dates {
 	float: right;
+    margin-left: 20px;
 }
 
 .skills {
@@ -97,14 +98,13 @@ time {
 
 /* Media Queries */
 @media (max-width: 980px) {
-	dt, dd {
-		display: inline;
-		width: inherit;
-	}
-	
 	#wrapper {
 		padding: 0 10px;
 	}
+    
+    dl {
+        columns: 1;
+    }
 }
 @media (max-width: 480px) {
 	.phone-break {
@@ -112,20 +112,8 @@ time {
 		height: 1px;
 		overflow: hidden;
 	}
- dt, dd {
-		display: block;
-	}
 }
 @media print {
-	dt, dd {
-	display: inline-block;
-	}
-	dt {
-		width: 8%;
-	}
-	dd {
-		width: 41%;
-	}
     #meta {
 		display: none;
 	}
