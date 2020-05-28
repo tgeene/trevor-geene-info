@@ -144,17 +144,24 @@
 						<h2>Skills</h2>
 					</header>
 					<dl itemscope itemtype="http://schema.org/ItemList">
-						<dt itemprop="name">Front End</dt>
+						<dt itemprop="name">Frontend Languages</dt>
 							<dd>
 								<ul class="skills">
 									<li itemprop="itemListElement">HTML5</li>
-									<li itemprop="itemListElement">AMP-HTML</li>
 									<li itemprop="itemListElement">JavaScript</li>
 									<li itemprop="itemListElement">CSS3</li>
-									<li itemprop="itemListElement">SASS</li>
 								</ul>
 							</dd>
-						<dt itemprop="name">Backend</dt>
+						<dt itemprop="name">Frontend Frameworks</dt>
+							<dd>
+								<ul class="skills">
+									<li itemprop="itemListElement">AMP-HTML</li>
+									<li itemprop="itemListElement">jQuery</li>
+									<li itemprop="itemListElement">SASS</li>
+									<li itemprop="itemListElement">UmbrellaJS</li>
+								</ul>
+							</dd>
+						<dt itemprop="name">Backend Languages</dt>
 							<dd>
 								<ul class="skills">
 									<li itemprop="itemListElement">PHP7</li>
@@ -162,30 +169,25 @@
 									<li itemprop="itemListElement">Python3</li>
 								</ul>
 							</dd>
-						<dt itemprop="name">Data Systems</dt>
-							<dd>
-								<ul class="skills">
-									<li itemprop="itemListElement">JSON</li>
-									<li itemprop="itemListElement">MongoDB</li>
-									<li itemprop="itemListElement">MySQL</li>
-									<li itemprop="itemListElement">XML</li>
-								</ul>
-							</dd>
-						<dt itemprop="name">Frameworks</dt>
+						<dt itemprop="name">Backend Frameworks</dt>
 							<dd>
 								<ul class="skills">
 									<li itemprop="itemListElement">CodeIgniter</li>
 									<li itemprop="itemListElement">Flask</li>
-									<li itemprop="itemListElement">jQuery</li>
 									<li itemprop="itemListElement">Meteor</li>
-									<li itemprop="itemListElement">UmbrellaJS</li>
 									<li itemprop="itemListElement">WordPress</li>
+								</ul>
+							</dd>
+						<dt itemprop="name">Data Systems</dt>
+							<dd>
+								<ul class="skills">
+									<li itemprop="itemListElement">MongoDB</li>
+									<li itemprop="itemListElement">MySQL</li>
 								</ul>
 							</dd>
 						<dt itemprop="name">Other</dt>
 							<dd>
 								<ul class="skills">
-									<li itemprop="itemListElement">Linux</li>
 									<li itemprop="itemListElement">Git</li>
 									<li itemprop="itemListElement">SEO</li>
 									<li itemprop="itemListElement">SVN</li>
