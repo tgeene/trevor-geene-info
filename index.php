@@ -161,6 +161,21 @@ $base_description = "A Las Vegas based Web Developer &amp; Consultant with ".(da
 									<li itemprop="itemListElement">CSS3</li>
 								</ul>
 							</dd>
+						<dt itemprop="name">Backend Languages</dt>
+							<dd>
+								<ul class="skills">
+									<li itemprop="itemListElement">PHP7</li>
+									<li itemprop="itemListElement">PHP5</li>
+									<li itemprop="itemListElement">Python3</li>
+								</ul>
+							</dd>
+						<dt itemprop="name">Data Systems</dt>
+							<dd>
+								<ul class="skills">
+									<li itemprop="itemListElement">MongoDB</li>
+									<li itemprop="itemListElement">MySQL</li>
+								</ul>
+							</dd>
 						<dt itemprop="name">Frontend Frameworks</dt>
 							<dd>
 								<ul class="skills">
@@ -170,14 +185,6 @@ $base_description = "A Las Vegas based Web Developer &amp; Consultant with ".(da
 									<li itemprop="itemListElement">UmbrellaJS</li>
 								</ul>
 							</dd>
-						<dt itemprop="name">Backend Languages</dt>
-							<dd>
-								<ul class="skills">
-									<li itemprop="itemListElement">PHP7</li>
-									<li itemprop="itemListElement">PHP5</li>
-									<li itemprop="itemListElement">Python3</li>
-								</ul>
-							</dd>
 						<dt itemprop="name">Backend Frameworks</dt>
 							<dd>
 								<ul class="skills">
@@ -185,13 +192,6 @@ $base_description = "A Las Vegas based Web Developer &amp; Consultant with ".(da
 									<li itemprop="itemListElement">Flask</li>
 									<li itemprop="itemListElement">Meteor</li>
 									<li itemprop="itemListElement">WordPress</li>
-								</ul>
-							</dd>
-						<dt itemprop="name">Data Systems</dt>
-							<dd>
-								<ul class="skills">
-									<li itemprop="itemListElement">MongoDB</li>
-									<li itemprop="itemListElement">MySQL</li>
 								</ul>
 							</dd>
 						<dt itemprop="name">Other</dt>
