@@ -189,6 +189,7 @@
 							<dd>
 								<ul class="skills">
 									<li itemprop="itemListElement">Git</li>
+									<li itemprop="itemListElement">MicroData</li>
 									<li itemprop="itemListElement">SEO</li>
 									<li itemprop="itemListElement">SVN</li>
 								</ul>
