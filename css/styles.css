@@ -12,8 +12,16 @@ ul {
 ul ul {
     margin-left: 4em;
 }
+dl {
+    overflow: hidden;
+}
 dt, dd {
 	display: block;
+    float: right;
+    width: 50%;
+}
+dt:nth-child(4n+1), dd:nth-child(4n-2) {
+    float: left;
 }
 dd:after {
 	content: " ";
