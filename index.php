@@ -66,7 +66,7 @@
 					<header>
 						<h2>Summary</h2>
 					</header>
-					<p>Web Developer with <?php echo date("Y")-2010; ?> years of professional experience building websites, applications, and managing projects. Excels at creating positive working relationships with a wide variety of clients representing a plethora of industries.</p>
+					<p>Web Developer with <?php $f = new NumberFormatter("en", NumberFormatter::SPELLOUT); echo $f->format(date("Y")-2010); ?> years of professional experience building websites, applications, and managing projects. Excels at creating positive working relationships with a wide variety of clients representing a plethora of industries.</p>
 				</section>
 				<!-- Employment History -->
 				<section id="employment">
@@ -83,12 +83,12 @@
 						<h4 itemprop="jobTitle">Lead Web Developer / Project Manager</h4>
 						<ul itemprop="description">
 							<li>Create a tour reseller site using AMP-HTML.</li>
-							<li>Build a content manage system to handle all of the front end systems including:
+							<li>Build a content management system to handle all of the front end systems including:
                                 <ul>
                                     <li>Categories</li>
                                     <li>Locations</li>
                                     <li>Articles</li>
-                                    <li>Companies/Venies</li>
+                                    <li>Companies/Venues</li>
                                     <li>Products</li>
                                     <li>Orders</li>
                                     <li>Users</li>
@@ -105,9 +105,9 @@
 						</header>
 						<h4 itemprop="jobTitle">Senior Web Developer</h4>
 						<ul itemprop="description">
-							<li>Train new web focused team members.</li>
-							<li>Manage clients for both Web Design &amp; Development projects.</li>
-							<li>Work with a team to build websites and webs applications from the ground up.</li>
+							<li>Train new web-focused team members.</li>
+							<li>Manage clients for both web design and development projects.</li>
+							<li>Work with a team to build websites and web applications from the ground up.</li>
 							<li>Provide custom development solutions to clients.</li>
 						</ul>
 					</article>
@@ -120,8 +120,14 @@
 						</header>
 						<h4 itemprop="jobTitle">Web Developer</h4>
 						<ul itemprop="description">
-							<li>Work with owner to build a point of sales and employee management system.</li>
-							<li>Features included: customer tracking, timesheet management and a reporting system.</li>
+							<li>Work with the owner to build a point of sales and employee management system.</li>
+							<li>Features included: 
+                                <ul>
+                                    <li>Customer Tracking</li>
+                                    <li>Timesheet Management</li>
+                                    <li>Reporting System</li>
+                                </ul>
+                            </li>
 						</ul>
 					</article>
 					<article itemscope itemtype="http://schema.org/Organization">
@@ -133,7 +139,7 @@
 						</header>
 						<h4 itemprop="jobTitle">Web Developer</h4>
 						<ul itemprop="description">
-							<li>Work with a team to build websites and webs applications from the ground up.</li>
+							<li>Work with a team to build websites and web applications from the ground up.</li>
 							<li>Provide custom development solutions to clients.</li>
 						</ul>
 					</article>
