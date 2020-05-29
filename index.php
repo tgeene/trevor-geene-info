@@ -12,9 +12,6 @@ $base_description = "A Las Vegas based Web Developer &amp; Consultant with ".(da
 		<meta name="keywords" content="Trevor Geene,Resume,Web Developer,Web Consultant,Las Vegas,AllinWebPro.com,Sin City Gold Buyers,Cyber House Studios,Graphic Intrigue">
 		<meta name="robots" content="index, follow">
 		<meta name="revisit-after" content="1 month">
-		<meta name="msvalidate.01" content="147E3D660A91D75C79ABE39684D338FF" />
-		<meta name="google-site-verification" content="jn7u-0tkgujXLTbfnN0XbIYziJq3k7fKk8u6-oIyhaU" />
-		<meta name="yandex-verification" content="cc15dcdc0623e346" />
 		<!-- Social Meta -->
 		<meta property="fb:app_id" content="1287814887965073" />
 		<meta property="og:url" content="http://trevor.geene.co" />
@@ -44,9 +41,7 @@ $base_description = "A Las Vegas based Web Developer &amp; Consultant with ".(da
 		<meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
 		<!-- Styles -->
-		<link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/defaults.css">
+		<link rel="preload" href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/styles.css">
 		<!-- Misc -->
 		<title>Trevor Geene - Las Vegas Web Developer &amp; Consultant</title>
