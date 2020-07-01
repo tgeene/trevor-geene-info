@@ -192,9 +192,12 @@ $base_description = "A Las Vegas based Web Developer &amp; Consultant with ".(da
 						<dt itemprop="name">Other</dt>
 							<dd>
 								<ul class="skills">
+									<li itemprop="itemListElement">FTP</li>
 									<li itemprop="itemListElement">Git</li>
 									<li itemprop="itemListElement">MicroData</li>
+									<li itemprop="itemListElement">REST</li>
 									<li itemprop="itemListElement">SEO</li>
+									<li itemprop="itemListElement">SSH</li>
 									<li itemprop="itemListElement">SVN</li>
 								</ul>
 							</dd>
