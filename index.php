@@ -221,7 +221,7 @@ $base_description = "A Las Vegas based Web Developer &amp; Consultant with ".(da
 			</main>
 			<!-- Page Footer -->
 			<footer id="meta">
-				<p>Trevor Geene's Resume &copy; <?php echo date("Y"); ?> | <a href="https://github.com/tgeene" title="GitHub" rel="nofollow">GitHub</a></p>
+				<p>Trevor Geene's Resume &copy; <?php echo date("Y"); ?> | <a href="https://github.com/tgeene" title="GitHub" rel="nofollow">GitHub</a> | <a href="https://www.youtube.com/channel/UCAaXQueX_8RgMegjq0Tprfw/" title="YouTube Portfolio" rel="nofollow">YouTube Portfolio</a></p>
 			</footer>
 		</div>
 		<!-- Analytics -->
