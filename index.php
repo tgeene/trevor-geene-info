@@ -1,5 +1,10 @@
 <?php
-$base_description = "A Las Vegas based Web Developer &amp; Consultant with ".(date("Y")-2010)." years of professional experience building websites, applications, and managing projects.";
+$display_name = "Trevor Geene";
+$location = "Las Vegas";
+$prefered_title = "Web Developer &amp; Consultant";
+
+$page_title = $display_name." - ".$location." ".$prefered_title;;
+$base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")-2010)." years of professional experience building websites, applications, and managing projects.";
 ?>
 <!doctype html>
 <html lang="en-US">
@@ -7,20 +12,20 @@ $base_description = "A Las Vegas based Web Developer &amp; Consultant with ".(da
 		<!-- Meta Data -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="author" content="Trevor Geene">
+		<meta name="author" content="<?php echo $display_name; ?>">
 		<meta name="description" content="<?php echo $base_description; ?>">
-		<meta name="keywords" content="Trevor Geene,Resume,Web Developer,Web Consultant,Las Vegas,AllinWebPro.com,Sin City Gold Buyers,Cyber House Studios,Graphic Intrigue">
+		<meta name="keywords" content="<?php echo $display_name; ?>,<?php echo $location; ?>,Web Developer,Web Consultant,PHP,Python,MySQL,MariaDB,MongoDB,JavaScript,ReactJS">
 		<meta name="robots" content="index, follow">
 		<meta name="revisit-after" content="1 month">
 		<!-- Social Meta -->
 		<meta property="fb:app_id" content="1287814887965073" />
 		<meta property="og:url" content="http://trevor.geene.co" />
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="Trevor Geene - Las Vegas Web Developer &amp; Consultant" />
+		<meta property="og:title" content="<?php echo $page_title; ?>" />
 		<meta property="og:description" content="<?php echo $base_description; ?>" />
 		<meta name="twitter:card" content="summary" />
 		<meta name="twitter:site" content="@trevorgeene" />
-		<meta name="twitter:title" content="Trevor Geene - Las Vegas Web Developer &amp; Consultant" />
+		<meta name="twitter:title" content="<?php echo $page_title; ?>" />
 		<meta name="twitter:description" content="<?php echo $base_description; ?>" />
 		<!-- Favicons -->
 		<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
@@ -44,7 +49,7 @@ $base_description = "A Las Vegas based Web Developer &amp; Consultant with ".(da
 		<link rel="preload" href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/styles.css">
 		<!-- Misc -->
-		<title>Trevor Geene - Las Vegas Web Developer &amp; Consultant</title>
+		<title><?php echo $page_title; ?></title>
 		<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -54,9 +59,9 @@ $base_description = "A Las Vegas based Web Developer &amp; Consultant with ".(da
 		<div id="wrapper">
 			<!-- Page Header -->
 			<header id="contact" itemscope itemtype="http://schema.org/Person">
-				<h1><span itemprop="name">Trevor Geene</span><span class="phone-break"> - </span><span itemprop="jobTitle">Web Developer</span></h1>
+				<h1><span itemprop="name"><?php echo $display_name; ?></span><span class="phone-break"> - </span><span itemprop="jobTitle"><?php echo $prefered_title; ?></span></h1>
 				<p><a title="Phone Number" href="tel:&#43;17024857566" itemprop="telephone" rel="nofollow">702&#46;485&#46;7566</a>
-					- <a title="Email Address" href="mailto:trevor&#46;geene&#64;gmail&#46;com" itemprop="email" rel="nofollow">trevor&#46;geene&#64;gmail&#46;com</a></p>
+						- <a title="Email Address" href="mailto:trevor&#46;geene&#64;gmail&#46;com" itemprop="email" rel="nofollow">trevor&#46;geene&#64;gmail&#46;com</a></p>
 			</header>
 			<main id="content">
 				<!-- Profesional Summary -->
@@ -82,15 +87,15 @@ $base_description = "A Las Vegas based Web Developer &amp; Consultant with ".(da
 						<ul itemprop="description">
 							<li>Create a tour reseller site using AMP-HTML.</li>
 							<li>Build a content management system to handle all of the front end systems including:
-                                <ul>
-                                    <li>Categories</li>
-                                    <li>Locations</li>
-                                    <li>Articles</li>
-                                    <li>Companies/Venues</li>
-                                    <li>Products</li>
-                                    <li>Orders</li>
-                                    <li>Users</li>
-                                </ul>
+                <ul>
+                  <li>Categories</li>
+                  <li>Locations</li>
+                  <li>Articles</li>
+                  <li>Companies/Venues</li>
+                  <li>Products</li>
+                  <li>Orders</li>
+                  <li>Users</li>
+                </ul>
 							</li>
 						</ul>
 					</article>
@@ -119,13 +124,13 @@ $base_description = "A Las Vegas based Web Developer &amp; Consultant with ".(da
 						<h4 itemprop="jobTitle">Web Developer</h4>
 						<ul itemprop="description">
 							<li>Work with the owner to build a point of sales and employee management system.</li>
-							<li>Features included: 
-                                <ul>
-                                    <li>Customer Tracking</li>
-                                    <li>Timesheet Management</li>
-                                    <li>Reporting System</li>
-                                </ul>
-                            </li>
+							<li>Features included:
+                <ul>
+                  <li>Customer Tracking</li>
+                  <li>Timesheet Management</li>
+                  <li>Reporting System</li>
+                </ul>
+              </li>
 						</ul>
 					</article>
 					<article itemscope itemtype="http://schema.org/Organization">
@@ -168,15 +173,16 @@ $base_description = "A Las Vegas based Web Developer &amp; Consultant with ".(da
 							<dd>
 								<ul class="skills">
 									<li itemprop="itemListElement">MongoDB</li>
-									<li itemprop="itemListElement">MySQL</li>
+									<li itemprop="itemListElement">MySQL/MariaDB</li>
 								</ul>
 							</dd>
 						<dt itemprop="name">Frontend Frameworks</dt>
 							<dd>
 								<ul class="skills">
-									<li itemprop="itemListElement">AMP-HTML</li>
+									<li itemprop="itemListElement">AMPscript</li>
 									<li itemprop="itemListElement">jQuery</li>
-									<li itemprop="itemListElement">SASS</li>
+									<li itemprop="itemListElement">ReactJS</li>
+									<li itemprop="itemListElement">SASS/SCSS</li>
 									<li itemprop="itemListElement">UmbrellaJS</li>
 								</ul>
 							</dd>
@@ -185,8 +191,7 @@ $base_description = "A Las Vegas based Web Developer &amp; Consultant with ".(da
 								<ul class="skills">
 									<li itemprop="itemListElement">CodeIgniter</li>
 									<li itemprop="itemListElement">Flask</li>
-									<li itemprop="itemListElement">Meteor</li>
-									<li itemprop="itemListElement">WordPress</li>
+									<li itemprop="itemListElement">WordPress/WooCommerce</li>
 								</ul>
 							</dd>
 						<dt itemprop="name">Other</dt>
@@ -194,9 +199,9 @@ $base_description = "A Las Vegas based Web Developer &amp; Consultant with ".(da
 								<ul class="skills">
 									<li itemprop="itemListElement">FTP</li>
 									<li itemprop="itemListElement">Git</li>
-									<li itemprop="itemListElement">MicroData</li>
-									<li itemprop="itemListElement">REST</li>
-									<li itemprop="itemListElement">SEO</li>
+									<li itemprop="itemListElement">Git</li>
+									<li itemprop="itemListElement">LAMP Stack</li>
+									<li itemprop="itemListElement">SEO/MicroData</li>
 									<li itemprop="itemListElement">SSH</li>
 									<li itemprop="itemListElement">SVN</li>
 								</ul>
@@ -224,7 +229,9 @@ $base_description = "A Las Vegas based Web Developer &amp; Consultant with ".(da
 			</main>
 			<!-- Page Footer -->
 			<footer id="meta">
-				<p>Trevor Geene's Resume &copy; <?php echo date("Y"); ?> | <a href="https://github.com/tgeene" title="GitHub" rel="nofollow">GitHub</a> | <a href="https://www.youtube.com/channel/UCAaXQueX_8RgMegjq0Tprfw/" title="YouTube Portfolio" rel="nofollow">YouTube Portfolio</a></p>
+				<p><a href="https://github.com/tgeene" title="<?php echo $display_name; ?>'s GitHub Repositories" rel="nofollow">GitHub</a>
+						| <a href="https://www.linkedin.com/in/tgeene/" title="<?php echo $display_name; ?>'s LinkedIn Profile">LinkedIn</a>
+						| <a href="https://www.youtube.com/channel/UCAaXQueX_8RgMegjq0Tprfw/" title="<?php echo $display_name; ?>'s YouTube Portfolio" rel="nofollow">YouTube Portfolio</a></p>
 			</footer>
 		</div>
 		<!-- Analytics -->
