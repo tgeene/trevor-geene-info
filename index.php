@@ -3,7 +3,7 @@ $display_name = "Trevor Geene";
 $location = "Las Vegas";
 $prefered_title = "Web Developer &amp; Consultant";
 
-$page_title = $display_name." - ".$location." ".$prefered_title;;
+$page_title = $display_name." ~ ".$location." ".$prefered_title;;
 $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")-2010)." years of professional experience building websites, applications, and managing projects.";
 ?>
 <!doctype html>
@@ -59,9 +59,9 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 		<div id="wrapper">
 			<!-- Page Header -->
 			<header id="contact" itemscope itemtype="http://schema.org/Person">
-				<h1><span itemprop="name"><?php echo $display_name; ?></span><span class="phone-break"> - </span><span itemprop="jobTitle"><?php echo $prefered_title; ?></span></h1>
-				<p><a title="Phone Number" href="tel:&#43;17024857566" itemprop="telephone" rel="nofollow">702&#46;485&#46;7566</a>
-						- <a title="Email Address" href="mailto:trevor&#46;geene&#64;gmail&#46;com" itemprop="email" rel="nofollow">trevor&#46;geene&#64;gmail&#46;com</a></p>
+				<h1><span itemprop="name"><?php echo $display_name; ?></span><span class="phone-break"> ~ </span><span itemprop="jobTitle"><?php echo $prefered_title; ?></span></h1>
+				<p><a title="<?php echo $display_name; ?>'s Cell Phone Number" href="tel:&#43;17024857566" itemprop="telephone" rel="nofollow">702&#46;485&#46;7566</a>
+						- <a title="<?php echo $display_name; ?>'s Email Address" href="mailto:trevor&#46;geene&#64;gmail&#46;com" itemprop="email" rel="nofollow">trevor&#46;geene&#64;gmail&#46;com</a></p>
 			</header>
 			<main id="content">
 				<!-- Profesional Summary -->
