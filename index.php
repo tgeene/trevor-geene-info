@@ -61,7 +61,7 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 			<header id="contact" itemscope itemtype="http://schema.org/Person">
 				<h1><span itemprop="name"><?php echo $display_name; ?></span><span class="phone-break"> ~ </span><span itemprop="jobTitle"><?php echo $prefered_title; ?></span></h1>
 				<p><a title="<?php echo $display_name; ?>'s Cell Phone Number" href="tel:&#43;17024857566" itemprop="telephone" rel="nofollow">702&#46;485&#46;7566</a>
-						- <a title="<?php echo $display_name; ?>'s Email Address" href="mailto:trevor&#46;geene&#64;gmail&#46;com" itemprop="email" rel="nofollow">trevor&#46;geene&#64;gmail&#46;com</a></p>
+						~ <a title="<?php echo $display_name; ?>'s Email Address" href="mailto:trevor&#46;geene&#64;gmail&#46;com" itemprop="email" rel="nofollow">trevor&#46;geene&#64;gmail&#46;com</a></p>
 			</header>
 			<main id="content">
 				<!-- Profesional Summary -->
