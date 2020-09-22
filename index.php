@@ -19,7 +19,7 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 		<meta name="revisit-after" content="1 month">
 		<!-- Social Meta -->
 		<meta property="fb:app_id" content="1287814887965073" />
-		<meta property="og:url" content="http://trevor.geene.co" />
+		<meta property="og:url" content="https://trevor.geene.co" />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="<?php echo $page_title; ?>" />
 		<meta property="og:description" content="<?php echo $base_description; ?>" />
@@ -32,7 +32,7 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 		<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
 		<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="favicons//apple-icon-114x114.png">
 		<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
 		<link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
 		<link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
@@ -46,7 +46,7 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 		<meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
 		<!-- Styles -->
-		<link rel="preload" href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+		<link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/styles.css">
 		<!-- Misc -->
 		<title><?php echo $page_title; ?></title>
@@ -58,7 +58,7 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 	<body>
 		<div id="wrapper">
 			<!-- Page Header -->
-			<header id="contact" itemscope itemtype="http://schema.org/Person">
+			<header id="contact" itemscope itemtype="https://schema.org/Person">
 				<h1><span itemprop="name"><?php echo $display_name; ?></span><span class="phone-break"> ~ </span><span itemprop="jobTitle"><?php echo $prefered_title; ?></span></h1>
 				<p><a title="<?php echo $display_name; ?>'s Cell Phone Number" href="tel:&#43;17024857566" itemprop="telephone" rel="nofollow">702&#46;485&#46;7566</a>
 						~ <a title="<?php echo $display_name; ?>'s Email Address" href="mailto:trevor&#46;geene&#64;gmail&#46;com" itemprop="email" rel="nofollow">trevor&#46;geene&#64;gmail&#46;com</a></p>
@@ -76,7 +76,7 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 					<header>
 						<h2>Employment</h2>
 					</header>
-					<article itemscope itemtype="http://schema.org/Organization">
+					<article itemscope itemtype="https://schema.org/Organization">
 						<header>
 							<h3 itemprop="name">Bid, LLC</h3>
 							<span class="dates">
@@ -99,7 +99,7 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 							</li>
 						</ul>
 					</article>
-					<article itemscope itemtype="http://schema.org/Organization">
+					<article itemscope itemtype="https://schema.org/Organization">
 						<header>
 							<h3 itemprop="name">AllinWebPro.com, LLC</h3>
 							<span class="dates">
@@ -114,7 +114,7 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 							<li>Provide custom development solutions to clients.</li>
 						</ul>
 					</article>
-					<article itemscope itemtype="http://schema.org/Organization">
+					<article itemscope itemtype="https://schema.org/Organization">
 						<header>
 							<h3 itemprop="name">Sin City Gold Buyers</h3>
 							<span class="dates">
@@ -133,7 +133,7 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
               </li>
 						</ul>
 					</article>
-					<article itemscope itemtype="http://schema.org/Organization">
+					<article itemscope itemtype="https://schema.org/Organization">
 						<header>
 							<h3 itemprop="name">Cyber House Studios</h3>
 							<span class="dates">
@@ -152,7 +152,7 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 					<header>
 						<h2>Skills</h2>
 					</header>
-					<dl itemscope itemtype="http://schema.org/ItemList">
+					<dl itemscope itemtype="https://schema.org/ItemList">
 						<dt itemprop="name">Frontend Languages</dt>
 							<dd>
 								<ul class="skills">
@@ -213,7 +213,7 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 					<header>
 						<h2>Education</h2>
 					</header>
-					<article itemscope itemtype="http://schema.org/EducationalOrganization">
+					<article itemscope itemtype="https://schema.org/EducationalOrganization">
 						<header>
 							<h3 itemprop="name">The Art Institute of Las Vegas</h3>
 							<span class="dates">
