@@ -1,5 +1,5 @@
-@import 'core/reset';
-@import 'core/defaults';
+@import '_reset';
+@import '_defaults';
 
 /* general */
 body {
@@ -104,7 +104,7 @@ time {
 	#wrapper {
 		padding: 0 10px;
 	}
-    
+
     dl {
         columns: 1;
     }

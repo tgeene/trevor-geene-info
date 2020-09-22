@@ -1,1 +1,4 @@
 /.sass-cache/*
+
+.scss-onsave.json
+/scss.sass-cache/

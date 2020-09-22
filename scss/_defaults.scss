@@ -1,0 +1,19 @@
+/* standardize tables */
+table {
+	table-layout: fixed;
+}
+
+/* fade link hover */
+a {
+	-webkit-transition: color 0.5s ease-in; /*safari and chrome */
+	-moz-transition: color 0.5s ease-in; /* firefox */
+	-o-transition: color 0.5s ease-in; /* opera */
+}
+
+/* set standards */
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
