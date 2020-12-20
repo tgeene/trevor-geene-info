@@ -298,7 +298,8 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 								<ul class="skills">
 									<li itemprop="itemListElement">CentOS</li>
 									<li itemprop="itemListElement">Ubuntu</li>
-									<li itemprop="itemListElement">WSL 1/2</li>
+									<li itemprop="itemListElement">Apache 2</li>
+									<li itemprop="itemListElement">OpenLiteSpeed</li>
 									<li itemprop="itemListElement">Docker</li>
 								</ul>
 							</dd>
@@ -320,6 +321,8 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 									<li itemprop="itemListElement">REST</li>
 									<li itemprop="itemListElement">SEO/MicroData</li>
 									<li itemprop="itemListElement">Unit Testing</li>
+									<li itemprop="itemListElement">WSL 1/2</li>
+									<li itemprop="itemListElement">Bash</li>
 								</ul>
 							</dd>
 					</dl>
