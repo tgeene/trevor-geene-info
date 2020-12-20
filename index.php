@@ -97,10 +97,10 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 								Maintain and expand upon companies existing code base.
 								<ul>
 									<li>
-										Use PHP, MySQL, and jQuery to add functionality admin management panel.
+										Use PHP, MySQL, and jQuery to add functionality to custom admin management panel.
 									</li>
 									<li>
-										Make changes to MariaDB tables and update Propel XML and generate PHP MySQL Class scripts.
+										Make changes to MariaDB tables and update Propel XML to generate ORM Class scripts.
 									</li>
 								</ul>
 							</li>
