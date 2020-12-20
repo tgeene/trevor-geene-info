@@ -78,6 +78,36 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 					</header>
 					<article itemscope itemtype="https://schema.org/Organization">
 						<header>
+							<h3 itemprop="name">RoundSky Inc</h3>
+							<span class="dates">
+								<time datetime="2020-12">December 2020</time> - <time datetime="<?php echo date("Y-m"); ?>">Present</time>
+							</span>
+						</header>
+						<h4 itemprop="jobTitle">Web Developer</h4>
+						<ul itemprop="description">
+							<li>
+								Design custom Docker containers for local, testing, and production enviroments.
+								<ul>
+									<li>
+										Build linux virutal machines using install commands and custom bash scripts.
+									</li>
+								</ul>
+							</li>
+							<li>
+								Maintain and expand upon companies existing code base.
+								<ul>
+									<li>
+										Use PHP, MySQL, and jQuery to add functionality admin management panel.
+									</li>
+									<li>
+										Make changes to MariaDB tables and update Propel XML and generate PHP MySQL Class scripts.
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</article>
+					<article itemscope itemtype="https://schema.org/Organization">
+						<header>
 							<h3 itemprop="name">Bid, LLC</h3>
 							<span class="dates">
 								<time datetime="2017-12">December 2017</time> - <time datetime="2020-05">May 2020</time>
@@ -85,17 +115,30 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 						</header>
 						<h4 itemprop="jobTitle">Lead Web Developer / Project Manager</h4>
 						<ul itemprop="description">
-							<li>Create a tour reseller site using AMP-HTML.</li>
-							<li>Build a content management system to handle all of the front end systems including:
-                <ul>
-                  <li>Categories</li>
-                  <li>Locations</li>
-                  <li>Articles</li>
-                  <li>Companies/Venues</li>
-                  <li>Products</li>
-                  <li>Orders</li>
-                  <li>Users</li>
-                </ul>
+							<li>
+								Created a responsive client facing tour reseller website.
+								<ul>
+									<li>
+										Used Googles AMPscript to create moble first HTML webpages.
+									</li>
+									<li>
+										Utilized SASS to create template specific stylesheets to reduce page load speed.
+									</li>
+									<li>
+										Built site on top of the CodeIgniter framework to handle MySQL connection and templating.
+									</li>
+								</ul>
+							</li>
+							<li>
+								Created a custom CMS for both administrators and affiliates.
+								<ul>
+									<li>
+										Utilized HTML, SASS, and jQuery to create a rubst interface.
+									</li>
+									<li>
+										Built site on top of the CodeIgniter framework to handle MySQL connection and templating.
+									</li>
+								</ul>
 							</li>
 						</ul>
 					</article>
@@ -108,10 +151,50 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 						</header>
 						<h4 itemprop="jobTitle">Senior Web Developer</h4>
 						<ul itemprop="description">
-							<li>Train new web-focused team members.</li>
-							<li>Manage clients for both web design and development projects.</li>
-							<li>Work with a team to build websites and web applications from the ground up.</li>
-							<li>Provide custom development solutions to clients.</li>
+							<li>
+								Train new web-focused team members.
+								<ul>
+									<li>
+										Introduce them to client and project management systems.
+									</li>
+									<li>
+										Instruct on how to handle project testing and publishing.
+									</li>
+								</ul>
+							</li>
+							<li>
+								Manage clients for both web design and development projects.
+								<ul>
+									<li>
+										Meet with clients to establish start of projects and define scope documents.
+									</li>
+									<li>
+										Review projects and maintain contact with client as project proceeds.
+									</li>
+								</ul>
+							</li>
+							<li>
+								Work with a team to build websites and web applications.
+								<ul>
+									<li>
+										Turned PSDs into responsive page designs.
+									</li>
+									<li>
+										Customize WordPress themes and plugins.
+									</li>
+								</ul>
+							</li>
+							<li>
+								Provide custom development solutions to clients.
+								<ul>
+									<li>
+										Utilize CodeIgniter or Meteor with HTML5, CSS3, and jQuery to create unique applications.
+									</li>
+									<li>
+										Manage and store data using MySQL or MongoDB depending on projects needs.
+									</li>
+								</ul>
+							</li>
 						</ul>
 					</article>
 					<article itemscope itemtype="https://schema.org/Organization">
@@ -123,14 +206,17 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 						</header>
 						<h4 itemprop="jobTitle">Web Developer</h4>
 						<ul itemprop="description">
-							<li>Work with the owner to build a point of sales and employee management system.</li>
-							<li>Features included:
-                <ul>
-                  <li>Customer Tracking</li>
-                  <li>Timesheet Management</li>
-                  <li>Reporting System</li>
-                </ul>
-              </li>
+							<li>
+								Work with the owner to build a point of sales and employee management system.
+								<ul>
+									<li>
+										Utilize CodeIgniter with HTML5, CSS3, and jQuery to create a custom application.
+									</li>
+									<li>
+										Manage and store data using MySQL.
+									</li>
+								</ul>
+							</li>
 						</ul>
 					</article>
 					<article itemscope itemtype="https://schema.org/Organization">
@@ -142,8 +228,28 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 						</header>
 						<h4 itemprop="jobTitle">Web Developer</h4>
 						<ul itemprop="description">
-							<li>Work with a team to build websites and web applications from the ground up.</li>
-							<li>Provide custom development solutions to clients.</li>
+							<li>
+								Work with a team to build websites and web applications.
+								<ul>
+									<li>
+										Turned PSDs into responsive page designs.
+									</li>
+									<li>
+										Customize WordPress themes and plugins.
+									</li>
+								</ul>
+							</li>
+							<li>
+								Provide custom development solutions to clients.
+								<ul>
+									<li>
+										Utilize CodeIgniter or Meteor with HTML5, CSS3, and jQuery to create unique applications.
+									</li>
+									<li>
+										Manage and store data using MySQL or MongoDB depending on projects needs.
+									</li>
+								</ul>
+							</li>
 						</ul>
 					</article>
 				</section>
@@ -153,57 +259,67 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 						<h2>Skills</h2>
 					</header>
 					<dl itemscope itemtype="https://schema.org/ItemList">
-						<dt itemprop="name">Frontend Languages</dt>
+						<dt itemprop="name">Frontend Languages &amp; Frameworks</dt>
 							<dd>
 								<ul class="skills">
-									<li itemprop="itemListElement">HTML5</li>
+									<li itemprop="itemListElement">HTML 5</li>
+									<li itemprop="itemListElement">AMPscript</li>
+									<li itemprop="itemListElement">CSS 3</li>
+									<li itemprop="itemListElement">SASS/SCSS</li>
 									<li itemprop="itemListElement">JavaScript</li>
-									<li itemprop="itemListElement">CSS3</li>
+									<li itemprop="itemListElement">jQuery</li>
+									<li itemprop="itemListElement">React</li>
+									<li itemprop="itemListElement">UmbrellaJS</li>
 								</ul>
 							</dd>
-						<dt itemprop="name">Backend Languages</dt>
+						<dt itemprop="name">Backend Languages &amp; Frameworks</dt>
 							<dd>
 								<ul class="skills">
-									<li itemprop="itemListElement">PHP7</li>
-									<li itemprop="itemListElement">PHP5</li>
-									<li itemprop="itemListElement">Python3</li>
+									<li itemprop="itemListElement">PHP 5/7/8</li>
+									<li itemprop="itemListElement">CodeIgniter</li>
+									<li itemprop="itemListElement">WordPress/WooCommerce</li>
+									<li itemprop="itemListElement">Python 3</li>
+									<li itemprop="itemListElement">Flask</li>
+									<li itemprop="itemListElement">Tkinter</li>
 								</ul>
 							</dd>
-						<dt itemprop="name">Data Systems</dt>
+						<dt itemprop="name">Database Systems &amp; Data Formats</dt>
 							<dd>
 								<ul class="skills">
 									<li itemprop="itemListElement">MongoDB</li>
 									<li itemprop="itemListElement">MySQL/MariaDB</li>
+									<li itemprop="itemListElement">XML</li>
+									<li itemprop="itemListElement">JSON</li>
+									<li itemprop="itemListElement">CSV</li>
 								</ul>
 							</dd>
-						<dt itemprop="name">Frontend Frameworks</dt>
+						<dt itemprop="name">Servers &amp; Virtual Enviroments</dt>
 							<dd>
 								<ul class="skills">
-									<li itemprop="itemListElement">AMPscript</li>
-									<li itemprop="itemListElement">jQuery</li>
-									<li itemprop="itemListElement">ReactJS</li>
-									<li itemprop="itemListElement">SASS/SCSS</li>
-									<li itemprop="itemListElement">UmbrellaJS</li>
+									<li itemprop="itemListElement">CentOS</li>
+									<li itemprop="itemListElement">Ubuntu</li>
+									<li itemprop="itemListElement">WSL 1/2</li>
+									<li itemprop="itemListElement">Docker</li>
 								</ul>
 							</dd>
-						<dt itemprop="name">Backend Frameworks</dt>
+						<dt itemprop="name">Server and File Mangment</dt>
 							<dd>
 								<ul class="skills">
-									<li itemprop="itemListElement">CodeIgniter</li>
-									<li itemprop="itemListElement">Flask</li>
-									<li itemprop="itemListElement">WordPress/WooCommerce</li>
-								</ul>
-							</dd>
-						<dt itemprop="name">Other</dt>
-							<dd>
-								<ul class="skills">
+									<li itemprop="itemListElement">WHM/CPanel</li>
 									<li itemprop="itemListElement">FTP</li>
-									<li itemprop="itemListElement">Git</li>
-									<li itemprop="itemListElement">Git</li>
-									<li itemprop="itemListElement">LAMP Stack</li>
-									<li itemprop="itemListElement">SEO/MicroData</li>
+									<li itemprop="itemListElement">SFTP</li>
 									<li itemprop="itemListElement">SSH</li>
+									<li itemprop="itemListElement">Git</li>
 									<li itemprop="itemListElement">SVN</li>
+								</ul>
+							</dd>
+						<dt itemprop="name">Miscellaneous</dt>
+							<dd>
+								<ul class="skills">
+									<li itemprop="itemListElement">OOP</li>
+									<li itemprop="itemListElement">REST</li>
+									<li itemprop="itemListElement">SEO/MicroData</li>
+									<li itemprop="itemListElement">Unit Testing</li>
 								</ul>
 							</dd>
 					</dl>
