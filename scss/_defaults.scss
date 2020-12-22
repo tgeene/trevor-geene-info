@@ -1,8 +1,9 @@
 :root {
-	--bg-color: #f7f7f7;
+	--main-bg-color: #f7f7f7;
 	--border-text-color: #0f0f0f;
 	--main-color: #D9513F;
 	--dark-color: #8C3B30;
+	--modal-bg-color: rgba(0, 0, 0, 0.5);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -11,6 +12,7 @@
 		--border-text-color: #f7f7f7;
 		--main-color: #BADA55;
 		--dark-color: #758C29;
+		--modal-bg-color: rgba(255, 255, 255, 0.5);
 	}
 }
 

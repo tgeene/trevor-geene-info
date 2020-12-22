@@ -46,7 +46,8 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 		<meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
 		<!-- Styles -->
-		<link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/styles.css">
 		<!-- Misc -->
 		<title><?php echo $page_title; ?></title>
@@ -353,6 +354,19 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 						| <a href="https://www.youtube.com/channel/UCAaXQueX_8RgMegjq0Tprfw/" title="<?php echo $display_name; ?>'s YouTube Portfolio" rel="nofollow">YouTube Portfolio</a></p>
 			</footer>
 		</div>
+		<?php if(!isset($_GET['ref']) || $_GET['ref'] !== 'djinn-development'): ?>
+			<div id="modal-background" onclick="closeModal();"></div>
+			<div id="modal-content">
+				<p>This site is now only used to display my resume. If you would like to view my primary website you can do so by clicking the link below.</p>
+				<p><a href="https://www.djinn.dev" title="Djinn Development" target="_blank">https://www.djinn.dev</a></p>
+			</div>
+			<script type="text/javascript">
+			const closeModal = () => {
+				document.getElementById('modal-background').remove();
+				document.getElementById('modal-content').remove();
+			};
+			</script>
+		<?php endif; ?>
 		<!-- Analytics -->
 		<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
