@@ -351,7 +351,7 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 			<footer id="meta">
 				<p><a href="https://github.com/tgeene" title="<?php echo $display_name; ?>'s GitHub Repositories" rel="nofollow">GitHub</a>
 						| <a href="https://www.linkedin.com/in/tgeene/" title="<?php echo $display_name; ?>'s LinkedIn Profile">LinkedIn</a>
-						| <a href="https://www.youtube.com/channel/UCAaXQueX_8RgMegjq0Tprfw/" title="<?php echo $display_name; ?>'s YouTube Portfolio" rel="nofollow">YouTube Portfolio</a></p>
+						| <a href="https://www.youtube.com/c/TrevorGeene" title="<?php echo $display_name; ?>'s YouTube Portfolio" rel="nofollow">YouTube Portfolio</a></p>
 			</footer>
 		</div>
 		<?php if(!isset($_GET['ref']) || $_GET['ref'] !== 'djinn-development'): ?>
