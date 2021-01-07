@@ -1,11 +1,11 @@
 <?php
 $display_name = "Trevor Geene";
 $location = "Las Vegas";
-$prefered_title = "Web Developer &amp; Consultant";
+$preferred_title = "Web Developer &amp; Consultant";
 $site_url = "https://trevor.geene.co";
 
-$page_title = $display_name." ~ ".$location." ".$prefered_title;;
-$base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")-2010)." years of professional experience building websites, applications, and managing projects.";
+$page_title = $display_name." ~ ".$location." ".$preferred_title;;
+$base_description = "A ".$location." based ".$preferred_title." with ".(date("Y")-2010)." years of professional experience building websites, applications, and managing projects.";
 
 $index = 'index';
 if(isset($_GET['ref']) && $_GET['ref'] == 'djinn-development') { $index = 'noindex'; }
@@ -65,7 +65,7 @@ if(isset($_GET['ref']) && $_GET['ref'] == 'djinn-development') { $index = 'noind
 		<div id="wrapper">
 			<!-- Page Header -->
 			<header id="contact" itemscope itemtype="https://schema.org/Person">
-				<h1><span itemprop="name"><?php echo $display_name; ?></span><span class="phone-break"> ~ </span><span itemprop="jobTitle"><?php echo $prefered_title; ?></span></h1>
+				<h1><span itemprop="name"><?php echo $display_name; ?></span><span class="phone-break"> ~ </span><span itemprop="jobTitle"><?php echo $preferred_title; ?></span></h1>
 				<p><a title="<?php echo $display_name; ?>'s Cell Phone Number" href="" itemprop="telephone" rel="nofollow"></a>
 						~ <a title="<?php echo $display_name; ?>'s Email Address" href="" itemprop="email" rel="nofollow"></a></p>
 			</header>
