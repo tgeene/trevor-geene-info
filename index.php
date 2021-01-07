@@ -2,6 +2,7 @@
 $display_name = "Trevor Geene";
 $location = "Las Vegas";
 $prefered_title = "Web Developer &amp; Consultant";
+$site_url = "https://trevor.geene.co";
 
 $page_title = $display_name." ~ ".$location." ".$prefered_title;;
 $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")-2010)." years of professional experience building websites, applications, and managing projects.";
@@ -20,9 +21,10 @@ if(isset($_GET['ref']) && $_GET['ref'] == 'djinn-development') { $index = 'noind
 		<meta name="keywords" content="<?php echo $display_name; ?>,<?php echo $location; ?>,Web Developer,Web Consultant,PHP,Python,MySQL,MariaDB,MongoDB,JavaScript,ReactJS">
 		<meta name="robots" content="<?php echo $index; ?>, follow">
 		<meta name="revisit-after" content="1 month">
+		<link rel="canonical" href="<?php echo $site_url; ?>"
 		<!-- Social Meta -->
 		<meta property="fb:app_id" content="1287814887965073" />
-		<meta property="og:url" content="https://trevor.geene.co" />
+		<meta property="og:url" content="<?php echo $site_url; ?>" />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="<?php echo $page_title; ?>" />
 		<meta property="og:description" content="<?php echo $base_description; ?>" />
