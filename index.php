@@ -349,9 +349,10 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 			</main>
 			<!-- Page Footer -->
 			<footer id="meta">
-				<p><a href="https://github.com/tgeene" title="<?php echo $display_name; ?>'s GitHub Repositories" rel="nofollow">GitHub</a>
-						| <a href="https://www.linkedin.com/in/tgeene/" title="<?php echo $display_name; ?>'s LinkedIn Profile">LinkedIn</a>
-						| <a href="https://www.youtube.com/c/TrevorGeene" title="<?php echo $display_name; ?>'s YouTube Portfolio" rel="nofollow">YouTube Portfolio</a></p>
+				<p><a href="https://djinn.dev" title="<?php echo $display_name; ?>'s Development Site" target='_blank'>Djinn Dev</a>
+						| <a href="https://github.com/tgeene" title="<?php echo $display_name; ?>'s GitHub Repositories" rel="nofollow" target='_blank'>GitHub</a>
+						| <a href="https://www.linkedin.com/in/tgeene/" title="<?php echo $display_name; ?>'s LinkedIn Profile" rel="nofollow" target='_blank'>LinkedIn</a>
+						| <a href="https://www.youtube.com/c/TrevorGeene" title="<?php echo $display_name; ?>'s YouTube Portfolio" rel="nofollow" target='_blank'>YouTube Portfolio</a></p>
 			</footer>
 		</div>
 		<?php if(!isset($_GET['ref']) || $_GET['ref'] !== 'djinn-development'): ?>
