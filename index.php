@@ -61,8 +61,8 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 			<!-- Page Header -->
 			<header id="contact" itemscope itemtype="https://schema.org/Person">
 				<h1><span itemprop="name"><?php echo $display_name; ?></span><span class="phone-break"> ~ </span><span itemprop="jobTitle"><?php echo $prefered_title; ?></span></h1>
-				<p><a title="<?php echo $display_name; ?>'s Cell Phone Number" href="tel:&#43;17024857566" itemprop="telephone" rel="nofollow">702&#46;485&#46;7566</a>
-						~ <a title="<?php echo $display_name; ?>'s Email Address" href="mailto:trevor&#46;geene&#64;gmail&#46;com" itemprop="email" rel="nofollow">trevor&#46;geene&#64;gmail&#46;com</a></p>
+				<p><a title="<?php echo $display_name; ?>'s Cell Phone Number" href="" itemprop="telephone" rel="nofollow"></a>
+						~ <a title="<?php echo $display_name; ?>'s Email Address" href="" itemprop="email" rel="nofollow"></a></p>
 			</header>
 			<main id="content">
 				<!-- Profesional Summary -->
@@ -362,21 +362,33 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 				<p><a href="https://www.djinn.dev" title="Djinn Development" target="_blank">https://www.djinn.dev</a></p>
 			</div>
 			<script type="text/javascript">
-			const closeModal = () => {
-				document.getElementById('modal-background').remove();
-				document.getElementById('modal-content').remove();
-			};
+				const closeModal = () => {
+					document.getElementById('modal-background').remove();
+					document.getElementById('modal-content').remove();
+				};
 			</script>
 		<?php endif; ?>
+		<!-- Bot Protection -->
+		<script type='text/javascript'>
+			const areaCode = '702', firstThree = '485', lastFour = '7566', userFirst = 'trevor', userLast = 'geene', host = 'gmail', ext = 'com';
+			document.addEventListener("DOMContentLoaded", function() {
+				let phoneLink = document.querySelector('#contact a[itemprop="telephone"]');
+				phoneLink.href = 'tel:+1' + areaCode + firstThree + lastFour;
+				phoneLink.text = areaCode + '.' + firstThree + '.' + lastFour;
+				let emailLink = document.querySelector('#contact a[itemprop="email"]');
+				emailLink.text = userFirst + '.' + userLast + '@' + host + '.' + ext;
+				emailLink.href = 'mailto:' + emailLink.text;
+			});
+		</script>
 		<!-- Analytics -->
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		<script type='text/javascript'>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-		ga('create', 'UA-93164263-1', 'auto');
-		ga('send', 'pageview');
+			ga('create', 'UA-93164263-1', 'auto');
+			ga('send', 'pageview');
 		</script>
 	</body>
 </html>
