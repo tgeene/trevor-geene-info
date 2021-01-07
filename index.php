@@ -5,6 +5,9 @@ $prefered_title = "Web Developer &amp; Consultant";
 
 $page_title = $display_name." ~ ".$location." ".$prefered_title;;
 $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")-2010)." years of professional experience building websites, applications, and managing projects.";
+
+$index = 'index';
+if(isset($_GET['ref']) && $_GET['ref'] == 'djinn-development') { $index = 'noindex'; }
 ?>
 <!doctype html>
 <html lang="en-US">
@@ -15,7 +18,7 @@ $base_description = "A ".$location." based ".$prefered_title." with ".(date("Y")
 		<meta name="author" content="<?php echo $display_name; ?>">
 		<meta name="description" content="<?php echo $base_description; ?>">
 		<meta name="keywords" content="<?php echo $display_name; ?>,<?php echo $location; ?>,Web Developer,Web Consultant,PHP,Python,MySQL,MariaDB,MongoDB,JavaScript,ReactJS">
-		<meta name="robots" content="index, follow">
+		<meta name="robots" content="<?php echo $index; ?>, follow">
 		<meta name="revisit-after" content="1 month">
 		<!-- Social Meta -->
 		<meta property="fb:app_id" content="1287814887965073" />
